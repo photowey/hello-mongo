@@ -1,0 +1,17 @@
+[package]
+name = "hello_mongo"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["photowey <photowey@gmail.com>"]
+license = "Apache-2.0"
+
+description = """
+hello-mongo is a simple project of the MongoDB bson-rust crate.
+"""
+
+[dependencies]
+sled = "0.34"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+bson = "2.13"
